@@ -1,0 +1,24 @@
+body {
+    background-color: gray;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+}
+
+input[type=checkbox]:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+}
